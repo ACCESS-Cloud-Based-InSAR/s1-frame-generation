@@ -1,0 +1,84 @@
+# Deprecated Folder
+deprecated/
+
+# OS Files
+**/.DS_Store
+**/.DS_Store?
+
+# vscode
+.vscode
+
+# env file
+.env
+
+# Vim files
+*.sw[mnop]
+
+# Notebooks used for presentations
+deprecated/
+
+# Test output
+tests/out/
+
+# Data Files
+*.zip
+*.tar.gz
+*.dat
+
+# .pyenv files
+.python-version
+
+# pytest files
+.pytest_cache/
+
+# Jupyter files
+*.ipynb_checkpoints
+
+# Python build files
+build/
+
+# Rope Files
+.ropeproject/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# Environments
+.env
+.envrc
+
+# Gdal and other image formats
+notebooks/*.tif
+*.xml
+*.shp
+*.sbx
+*.sbn
+*.shx
+*.prj
+*.qpj
+*.dbf
+*.cpg
+*.msk
+*.kmz
+*.jpg
+*.wld
+*.geojson
+*.sqlite3
+
+# The S1 burst directory
+S1_burstid_20220530/
+
+# The GHHS directory
+GSHHS_shp/
+
+# VRT
+*.vrt
+*.wgs84

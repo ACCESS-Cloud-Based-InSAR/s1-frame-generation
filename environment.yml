@@ -1,0 +1,17 @@
+name: s1-enumerator
+channels:
+ - conda-forge
+ - anaconda
+ - defaults
+dependencies:
+ - python>=3.10
+ - pip
+ - rasterio
+ - jupyter
+ - geopandas
+ - dem_stitcher
+ - numpy
+ - pandas
+ - tqdm
+ - matplotlib
+ - shapely
