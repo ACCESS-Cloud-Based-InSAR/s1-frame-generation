@@ -1,17 +1,31 @@
-name: s1-enumerator
+name: s1-frame-enumerator
 channels:
- - conda-forge
- - anaconda
- - defaults
+  - conda-forge
 dependencies:
- - python>=3.10
- - pip
- - rasterio
- - jupyter
- - geopandas
- - dem_stitcher
- - numpy
- - pandas
- - tqdm
- - matplotlib
- - shapely
+  - python=>3.10
+  # For packaging, and testing
+  - flake8
+  - flake8-import-order
+  - flake8-blind-except
+  - flake8-builtins
+  - ipympl
+  - setuptools
+  - setuptools_scm
+  - wheel
+  - pytest
+  - pytest-console-scripts
+  - pytest-cov
+  # For running
+  - importlib_metadata
+  # jupyter
+  - jupyter
+  - ipykernel
+  # gis
+  - rasterio
+  - geopandas
+  - shapely>=2.0.0
+  - tqdm
+  - requests
+  - asf_search
+  - hyp3_sdk
+  - dem_stitcher
