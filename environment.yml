@@ -1,8 +1,8 @@
-name: s1-frame-enumerator
+name: s1-frame-generation
 channels:
   - conda-forge
 dependencies:
-  - python=>3.10
+  - python=>3.11
   # For packaging, and testing
   - flake8
   - flake8-import-order
@@ -15,8 +15,6 @@ dependencies:
   - pytest
   - pytest-console-scripts
   - pytest-cov
-  # For running
-  - importlib_metadata
   # jupyter
   - jupyter
   - ipykernel
@@ -28,4 +26,4 @@ dependencies:
   - requests
   - asf_search
   - hyp3_sdk
-  - dem_stitcher
+  - dask-geopandas
