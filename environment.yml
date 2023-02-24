@@ -27,3 +27,4 @@ dependencies:
   - asf_search
   - hyp3_sdk
   - dask-geopandas
+  - dem_stitcher
